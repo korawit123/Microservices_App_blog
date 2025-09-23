@@ -4,6 +4,10 @@
 This project is a App blog microservices backend practice for Learing and understanding of the concept and implementation by using Next.js, TailwindCSS, express, javascript, Typescript, docker and kubernetes
 
 
+## Requirement
+
+Install Node.js > 20 v\
+Install docker and kubernetes
 ## Installation
 
 Install  Microservices App blog with npm
@@ -36,3 +40,9 @@ start kubernetes
 
 **Deployment:** docker and kubernetes
 
+
+## Instructor
+**Stephen Grider**\
+Microservices with Node JS and React\
+*Engineering Architect*\
+*Udemy Instructor Partner*
