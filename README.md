@@ -1,7 +1,7 @@
 
 # Microservices App blog
 
-This project is a App blog microservices backend practice for Learing and understanding of the concept and implementation by using Next.js, TailwindCSS, express, javascript, Typescript, docker and kubernetes
+This project is a App blog microservices backend practice for Learing and understanding of the concept and implementation form microservices course by using Next.js, TailwindCSS, express, javascript, Typescript, docker and kubernetes
 
 
 ## Requirement
@@ -22,16 +22,14 @@ then build docker image
     docker build -t (tageImage) . //Every service 
     docker push (tageImage)
 ```
-start kubernetes
+start kubernetes  and make sure that your kubernetes install ingress NGINX.
 
 ```bash
     cd k8s
-    kubectl apply -f deployment posts-depl.yaml
-    kubectl apply -f deployment event-bus-depl.yaml
-    kubectl apply -f service posts-srv.yaml
+    kubectl apply -f .
 ```
+Now you can type "http://localhost/" in your browser
 
-    
 ## Tech Stack
 
 **Client:** Next.j, TailwindCSS
@@ -41,8 +39,8 @@ start kubernetes
 **Deployment:** docker and kubernetes
 
 
-## Instructor
+<!-- ## Instructor
 **Stephen Grider**\
 Microservices with Node JS and React\
 *Engineering Architect*\
-*Udemy Instructor Partner*
+*Udemy Instructor Partner* -->
